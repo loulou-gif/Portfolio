@@ -4,22 +4,22 @@ header{
     width: 100%;
 }
 .circle1{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 }
 .circle2{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
 }
 .img-circle{
-    width: 500px;
-    height: 500px;
+    width: 650px;
+    height: 650px;
     border-radius: 50%;
 }
 nav li{
     margin: 1.25rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 2rem;
 }
