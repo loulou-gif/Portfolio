@@ -1,6 +1,6 @@
 header{
-    height: 1095px;
-    background-color: rgba(4, 2, 27, 0.9);
+    height: 1000px;
+    background-color: rgba(64, 64, 65, 0.9);
     width: 100%;
 }
 .circle1{
@@ -22,4 +22,8 @@ nav li{
     margin: 1.25rem;
     font-size: 2rem;
     line-height: 2rem;
+    color: whitesmoke;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.8);
 }
