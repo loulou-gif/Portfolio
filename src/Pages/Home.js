@@ -1,6 +1,12 @@
+import Header from "../Components/Header";
+import NavBar from "../Components/NavBar";
+
 const Home = () => {
     return(
-        <div></div>
+        <div>
+            <NavBar/>
+            <Header/>
+        </div>
     )
 }
 
