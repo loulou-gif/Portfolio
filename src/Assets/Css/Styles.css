@@ -27,3 +27,14 @@ nav li{
 nav{
     background-color: rgba(0, 0, 0, 0.8);
 }
+.bio{
+    background-color:#D9D9D9;
+    color: #787171;
+}
+.section1{
+    height: 1000px;
+}
+.section-img{
+    height: 750px;
+    width: 800px;
+}
