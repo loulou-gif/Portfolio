@@ -2,7 +2,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const Experiance = () =>{
+const Realisation = () =>{
     const data = [
         {
             image:"",
@@ -44,7 +44,7 @@ const Experiance = () =>{
       };
     return(
         <section className="">
-            <h3 className="text-4xl">Expériances</h3>
+            <h3 className="text-4xl">Réalisation</h3>
             <div className="flex justify-center mt-20"> 
                 <div className="w-8/12 h-2/5 ">
                 <Slider {...settings}>
@@ -52,10 +52,6 @@ const Experiance = () =>{
                     <div className="border w-3/12  h-[500] rounded-xl">
                         <div className="">
                             <img alt="" src={d.image} className="h-60 w-full"/>
-                        </div>
-                        <div className="">
-                            <h3 className="text-5xl">{d.Post}</h3>
-                            <p>{d.description} </p>
                         </div>
                     </div>                
                     ))}  
@@ -68,4 +64,4 @@ const Experiance = () =>{
     )
 }
 
-export default Experiance
+export default Realisation
