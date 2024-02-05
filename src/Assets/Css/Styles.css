@@ -42,5 +42,21 @@ nav{
 }
 section{
     height: 1095px;
-    
+
+}
+.skill{
+    text-align: none;
+}
+.content-box{
+    height: 25%;
+    margin: 1.25rem;
+}
+.box-text{
+    padding: 1.25rem;
+}
+
+.small-circle{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
 }
