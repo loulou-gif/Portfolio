@@ -1,4 +1,5 @@
 import Biographie from "../Components/Biographie";
+import Experiance from "../Components/Experiances";
 import Header from "../Components/Header";
 import NavBar from "../Components/NavBar";
 import Skills from "../Components/Skills";
@@ -10,6 +11,7 @@ const Home = () => {
             <Header/>
             <Biographie/>
             <Skills/>
+            <Experiance/>
         </div>
     )
 }

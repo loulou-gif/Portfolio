@@ -44,11 +44,11 @@ section{
     height: 1095px;
 
 }
-.skill{
-    text-align: none;
+.skills{
+    height: 700px;
 }
 .content-box{
-    height: 25%;
+    height: 40%;
     margin: 1.25rem;
 }
 .box-text{
