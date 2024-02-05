@@ -1,7 +1,7 @@
 import '../Assets/Css/Styles.css'
 const NavBar = () => {
     return(
-        <nav>
+        <nav className='navBar'>
             <ul className='flex justify-around w-2/4 '>
                 <li className=''>Biographie</li>
                 <li className=''>Compétences</li>
