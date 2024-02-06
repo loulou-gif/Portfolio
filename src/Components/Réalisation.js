@@ -1,37 +1,37 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import React from 'react';
+import first from '../Assets/Img/first.png'
+import second from '../Assets/Img/second.png'
+import third from '../Assets/Img/third.png'
+import fourth from '../Assets/Img/fourth.png'
 
 const Realisation = () =>{
     const data = [
         {
-            image:"",
-            Post:"Titre",
-            description:"lo lol lol lol lol lol lol",
+            image: first,
+            Link:"",
+            
+        },
+        {
+            image: second,
+            Link:"",
+            
+        },
+        {
+            image: third, 
+            Link:"",
+            
+        },
+        {
+            image: fourth,
+            Link:"",
             
         },
         {
             image:"",
-            Post:"titre2",
-            description:"lo lol lol lol lol lol lol",
-            
-        },
-        {
-            image:"",
-            Post:"titre3",
-            description:"lo lol lol lol lol lol lol",
-            
-        },
-        {
-            image:"",
-            Post:"titre4",
-            description:"lo lol lol lol lol lol lol",
-            
-        },
-        {
-            image:"",
-            Post:"titre5",
-            description:"lo lol lol lol lol lol lol",
+            Link:"titre5",
             
         },
     ]
@@ -43,15 +43,23 @@ const Realisation = () =>{
         slidesToScroll: 3
       };
     return(
-        <section className="">
-            <h3 className="text-4xl">Réalisation</h3>
-            <div className="flex justify-center mt-20"> 
+        <section className="real-sect ">
+            <h3 className="text-4xl pt-10">Réalisations & Certifications</h3>
+            <div className="flex justify-center mt-10"> 
                 <div className="w-8/12 h-2/5 ">
                 <Slider {...settings}>
                     {data.map((d) => (
-                    <div className="border w-3/12  h-[500] rounded-xl">
+                    <div className="hover:shadow-1xl w-3/12 m-5 h-[500] rounded-xl">
                         <div className="">
-                            <img alt="" src={d.image} className="h-60 w-full"/>
+                            <div className="flex justify-center items-center "style={{ 
+                                backgroundImage: `url(${d.image})`,
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundPosition: 'center',
+                                height: '35vh'
+                                }}>
+                               <button className=" bg-black hover:shadow-2xl shadow  hover:bg-gray-400 duration-300 h-12 w-6/12"><a href={d.Link} className="text-2xl  text-white">VISUALISATION</a></button> 
+                            </div>
                         </div>
                     </div>                
                     ))}  

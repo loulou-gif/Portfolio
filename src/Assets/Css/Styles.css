@@ -22,7 +22,7 @@ nav li{
     margin: 1.25rem;
     font-size: 2rem;
     line-height: 2rem;
-    color: whitesmoke;
+    color: rgb(224, 215, 215);
 }
 nav{
     background-color: rgba(0, 0, 0, 1);
@@ -59,4 +59,12 @@ section{
     width: 90px;
     height: 90px;
     border-radius: 50%;
+}
+.real-sect{
+    height: 700px;
+    background-color: rgba(125, 125, 126, 0.6);
+    color: #ffff;
+}
+.exp-sect{
+    height: 700px;
 }
