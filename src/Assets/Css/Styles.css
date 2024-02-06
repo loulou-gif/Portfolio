@@ -68,3 +68,10 @@ section{
 .exp-sect{
     height: 700px;
 }
+footer{
+    height: 20rem;
+    background-color: rgb(229, 229, 229);
+}
+.paragraphes{
+    text-align: none;
+}

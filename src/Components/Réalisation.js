@@ -49,7 +49,7 @@ const Realisation = () =>{
                 <div className="w-8/12 h-2/5 ">
                 <Slider {...settings}>
                     {data.map((d) => (
-                    <div className="hover:shadow-1xl w-3/12 m-5 h-[500] rounded-xl">
+                    <div className="hover:shadow-1xl w-[415] m-5 h-[435] rounded-xl">
                         <div className="">
                             <div className="flex justify-center items-center "style={{ 
                                 backgroundImage: `url(${d.image})`,

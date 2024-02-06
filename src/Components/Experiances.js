@@ -1,37 +1,38 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import simplon from '../Assets/Img/simplon.jpeg'
 
 const Experiance = () =>{
     const data = [
         {
-            image:"",
+            image: simplon,
             Post:"Titre",
-            description:"lo lol lol lol lol lol lol",
+            description:"Où j’ai été stagiaire et travailler sur divers projet blablablablabla lol lol lol lol lol lol lol lol lol lolol lol lol lol lol lol lol lol lol lol lol lol",
             
         },
         {
-            image:"",
+            image:simplon,
             Post:"titre2",
-            description:"lo lol lol lol lol lol lol",
+            description:"Où j’ai été stagiaire et travailler sur divers projet blablablablabla lol lol lol lol lol lol lol lol lol lolol lol lol lol lol lol lol lol lol lol lol lol",
             
         },
         {
-            image:"",
+            image:simplon,
             Post:"titre3",
-            description:"lo lol lol lol lol lol lol",
+            description:"Où j’ai été stagiaire et travailler sur divers projet blablablablabla lol lol lol lol lol lol lol lol lol lolol lol lol lol lol lol lol lol lol lol lol lol",
             
         },
         {
-            image:"",
+            image:simplon,
             Post:"titre4",
-            description:"lo lol lol lol lol lol lol",
+            description:"Où j’ai été stagiaire et travailler sur divers projet blablablablabla lol lol lol lol lol lol lol lol lol lolol lol lol lol lol lol lol lol lol lol lol lol",
             
         },
         {
-            image:"",
+            image:simplon,
             Post:"titre5",
-            description:"lo lol lol lol lol lol lol",
+            description:"Où j’ai été stagiaire et travailler sur divers projet blablablablabla lol lol lol lol lol lol lol lol lol lolol lol lol lol lol lol lol lol lol lol lol lol",
             
         },
     ]
@@ -49,13 +50,13 @@ const Experiance = () =>{
                 <div className="w-8/12 h-2/5 ">
                 <Slider {...settings}>
                     {data.map((d) => (
-                    <div className="border w-3/12  h-[500] rounded-xl">
+                    <div className=" w-[232] border  h-[485] rounded-xl">
                         <div className="">
-                            <img alt="" src={d.image} className="h-60 w-full"/>
+                            <img alt="" src={d.image} className="h-[232] w-[415]"/>
                         </div>
-                        <div className="">
-                            <h3 className="text-5xl">{d.Post}</h3>
-                            <p>{d.description} </p>
+                        <div className="flex justify-center">
+                            <div className="w-3/5"><h3 className="text-3xl">{d.Post}</h3>
+                            <p className="text-2xl">{d.description} </p></div>
                         </div>
                     </div>                
                     ))}  
