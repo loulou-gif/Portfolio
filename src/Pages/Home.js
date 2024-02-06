@@ -1,3 +1,4 @@
+import Copyright  from "../Components/Copyrights";
 import Biographie from "../Components/Biographie";
 import Experiance from "../Components/Experiances";
 import Footer from "../Components/Footer";
@@ -16,6 +17,7 @@ const Home = () => {
             <Experiance/>
             <Realisation/>
             <Footer/>
+            <Copyright/>
         </div>
     )
 }

@@ -69,9 +69,13 @@ section{
     height: 700px;
 }
 footer{
-    height: 20rem;
+    height: 30rem;
     background-color: rgb(229, 229, 229);
 }
 .paragraphes{
     text-align: none;
+}
+.copyright{
+    background-color: rgb(163, 163, 163);
+    height: 50px;
 }
