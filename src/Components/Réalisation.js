@@ -43,7 +43,7 @@ const Realisation = () =>{
         slidesToScroll: 3
       };
     return(
-        <section className="real-sect ">
+        <section id="real-sect" className=" ">
             <h3 className="text-4xl pt-10">Réalisations & Certifications</h3>
             <div className="flex justify-center mt-10"> 
                 <div className="w-8/12 h-2/5 ">

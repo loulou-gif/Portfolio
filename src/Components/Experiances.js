@@ -44,7 +44,7 @@ const Experiance = () =>{
         slidesToScroll: 3
       };
     return(
-        <section className="exp-sect">
+        <section id="exp-sect" className="">
             <h3 className="text-4xl">Expériances</h3>
             <div className="flex justify-center mt-20"> 
                 <div className="w-8/12 h-2/5 ">

@@ -1,7 +1,12 @@
-const skillsContent = [
+import { MdDeveloperMode } from "react-icons/md";
+import { SiTryhackme } from "react-icons/si";
+import { FaServer } from "react-icons/fa";
+import { SiTestcafe } from "react-icons/si";
+
+export const skillsContent = [
     {
         name: "Développeur Front-End",
-        icone: "",
+        icone: <MdDeveloperMode/>,
         skill1: "Réact js",
         skill2: "Tailswind Css",
         skill3: "Wordpress",
@@ -10,16 +15,16 @@ const skillsContent = [
     },
     {
         name: "Développeur Back-End",
-        icone: "Django",
-        skill1: "PostgreSql",
-        skill2: "Mysql",
-        skill3: "EC2 AWS",
-        skill4: "Cloud computing", 
-        skill5: "",
+        icone: <FaServer/>,
+        skill1: "Django",
+        skill2: "PostgreSql",
+        skill3: "Mysql",
+        skill4: "EC2 AWS",
+        skill5: "Cloud computing", 
     },
     {
         name: "Test Logiciels",
-        icone: "",
+        icone: <SiTestcafe/>,
         skill1: "Test Fonctionnel",
         skill2: "Test de charge",
         skill3: "Automatisation",
@@ -28,7 +33,7 @@ const skillsContent = [
     },
     {
         name: "Hacking Ethique",
-        icone: "",
+        icone: <SiTryhackme />,
         skill1: "Test d'intrusion",
         skill2: "Détection failles web",
         skill3: "Monitoring",
@@ -36,5 +41,3 @@ const skillsContent = [
         skill5: "Patch de vulnérabilitées",
     },
 ]
-
-export default skillsContent
