@@ -38,7 +38,7 @@ const Header = () => {
                 <div id="circle1" className='circle1  bg-white'></div >
                 <div id='circle2' className='circle2  ml-20 -mt-36 bg-white'></div > 
                 {/* <div className='img-circle  ml-28 -mt-52 bg-white'></div > */}
-                <img className='img-circle  ml-28 -mt-52' alt=''src={profil}></img>
+                <img id='img-circle' className='  ml-28 -mt-52' alt=''src={profil}></img>
                 
                 <h1 id='name' className='text-white p-5  text-left text-5xl'>Julius KONAN KAN</h1>
                 <h3 id="title" className='text-white p-2 pl-5  text-left text-2xl'>Développeur Full-Stack & pentester/tester web junior</h3>
