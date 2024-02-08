@@ -1,19 +1,30 @@
-import { Facebook, Mail, Phone, Twitter } from "@material-ui/icons";
+import { FaPhoneAlt, FaFacebookF, FaTwitter } from "react-icons/fa";
+import { CiMail } from "react-icons/ci";
 
 const Footer = () => {
     return(
         <footer id="footer" className="footer w-full   mt-20 pt-20 ">
+
+                    
             <div id="first" className="first flex p-5 justify-evenly ">
-                <div id="contact" className=" h-56  text-left w-4/12">
-                    <h3 className="text-5xl font-bold mb-5">Contactez-moi</h3>
-                    <div id="paragraphes" className=" text-2xl flex justify-start flex-col">
-                        <p><Phone/> +225 078 732 9780</p>
-                        <p><Mail/> Konankanjulius10@gmail.com</p>
-                        <p><Facebook/> Julius konan</p>
-                        <p><Twitter/> Kadmiel konan</p>
+                <div id="contact" className=" h-56  text-left w-6/12">
+                    <div id="paragraphes" className="border-spacing-7 flex  justify-evenly ">
+                        <FaPhoneAlt className="icone text-5xl rounded-full text-neutral-500  border border-neutral-500"/>
+                        <CiMail className="icone text-5xl rounded-full text-neutral-500  border border-neutral-500"/>
+                        <FaFacebookF className="icone text-5xl rounded-full text-neutral-500  border border-neutral-500"/>
+                        <FaTwitter className="icone text-5xl rounded-full text-neutral-500  border border-neutral-500"/>
+                    </div>
+                    <div id="paragraphes" className="border-spacing-7 flex mt-10 justify-around ">
+                        <ul className='flex justify-around w-3/4 text-2xl text-neutral-500  m-16'>
+                            <li className=''>Biographie</li>
+                            <li className=''>Compétences</li>
+                            <li className=''>Expériences</li>
+                            <li className=''>Réalisations</li>
+                            <li className=''>Contacts</li>
+                        </ul>
                     </div>
                 </div>
-                <form id="formulaire" className=" border flex-col w-3/12">
+                {/* <form id="formulaire" className=" border flex-col w-3/12">
                     <div className="mb-5">
                         <input className="w-full p-5 h-10 rounded" placeholder="Email "/>
                     </div>
@@ -21,7 +32,7 @@ const Footer = () => {
                     <div className="flex justify-end ">
                         <button className=" w-3/12 h-10 bg-black hover:bg-gray-400 hover:shadow-2xl duration-300 text-white text-2xl" >ENVOYER</button>
                     </div>
-                </form>
+                </form> */}
             </div>
             
         </footer>

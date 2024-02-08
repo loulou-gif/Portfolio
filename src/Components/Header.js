@@ -34,7 +34,7 @@ const Header = () => {
 
     return(
         <header id='header' className="flex-row flex justify-end">
-            <div id="circle" className='circle  h-3/4 w-6/12'>
+            <div id="circle" className='circle  h-3/4 w-6/12 ' style={{ position: 'relative', right: '20px', top: '20px' }}>
                 <div id="circle1" className='circle1  bg-white'></div >
                 <div id='circle2' className='circle2  ml-20 -mt-36 bg-white'></div > 
                 {/* <div className='img-circle  ml-28 -mt-52 bg-white'></div > */}
