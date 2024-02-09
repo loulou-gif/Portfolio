@@ -2,10 +2,12 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React from 'react';
-import first from '../Assets/Img/first.png'
-import second from '../Assets/Img/second.png'
-import third from '../Assets/Img/third.png'
-import fourth from '../Assets/Img/fourth.png'
+import first from '../Assets/Img/mokup1.jpg'
+import second from '../Assets/Img/mokup2.jpg'
+import third from '../Assets/Img/mokup3.jpg'
+import fourth from '../Assets/Img/mokup4.jpg'
+import firth from '../Assets/Img/mokup5.jpg'
+import sixth from '../Assets/Img/mokup6.jpg'
 
 const Realisation = () =>{
     const data = [
@@ -30,7 +32,12 @@ const Realisation = () =>{
             
         },
         {
-            image:"",
+            image:firth,
+            Link:"titre5",
+            
+        },
+        {
+            image:sixth,
             Link:"titre5",
             
         },
@@ -40,7 +47,7 @@ const Realisation = () =>{
         infinite: true,
         speed: 600,
         slidesToShow: 3,
-        slidesToScroll: 3
+        slidesToScroll: 1
       };
     return(
         <section id="real-sect" className=" ">
@@ -58,7 +65,7 @@ const Realisation = () =>{
                                 backgroundPosition: 'center',
                                 height: '35vh'
                                 }}>
-                               <button className=" bg-black hover:shadow-2xl shadow  hover:bg-gray-400 duration-300 h-12 w-6/12"><a href={d.Link} className="text-2xl  text-white">VISUALISATION</a></button> 
+                               <button className="bouton bg-black hover:shadow-2xl shadow  hover:bg-gray-400 duration-300 h-12 w-6/12"><a href={d.Link} className="text-2xl  text-white">VISUALISATION</a></button> 
                             </div>
                         </div>
                     </div>                

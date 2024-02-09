@@ -8,13 +8,13 @@ const Footer = () => {
                     
             <div id="first" className="first flex p-5 justify-evenly ">
                 <div id="contact" className=" h-56  text-left w-6/12">
-                    <div id="paragraphes" className="border-spacing-7 flex  justify-evenly ">
-                        <FaPhoneAlt className="icone text-5xl rounded-full text-neutral-500  border border-neutral-500"/>
-                        <CiMail className="icone text-5xl rounded-full text-neutral-500  border border-neutral-500"/>
-                        <FaFacebookF className="icone text-5xl rounded-full text-neutral-500  border border-neutral-500"/>
-                        <FaTwitter className="icone text-5xl rounded-full text-neutral-500  border border-neutral-500"/>
+                    <div id="paragraphes" className="border-spacing-7 flex justify-evenly ">
+                        <FaPhoneAlt className="icone text-5xl rounded-xl p-2 text-neutral-500  border border-neutral-500"/>
+                        <CiMail className="icone text-5xl rounded-xl p-2 text-neutral-500  border border-neutral-500"/>
+                        <FaFacebookF className="icone text-5xl rounded-xl p-2 text-neutral-500  border border-neutral-500"/>
+                        <FaTwitter className="icone text-5xl rounded-xl p-2 text-neutral-500  border border-neutral-500"/>
                     </div>
-                    <div id="paragraphes" className="border-spacing-7 flex mt-10 justify-around ">
+                    <div id="paragraphes" className="border-spacing-7 flex  justify-around ">
                         <ul className='flex justify-around w-3/4 text-2xl text-neutral-500  m-16'>
                             <li className=''>Biographie</li>
                             <li className=''>Compétences</li>

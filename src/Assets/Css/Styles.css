@@ -69,7 +69,7 @@ section{
     height: 700px;
 }
 footer{
-    height: 25rem;
+    height: 20rem;
     background-color: rgb(229, 229, 229);
 }
 #paragraphes{
@@ -78,4 +78,8 @@ footer{
 #copyright{
     background-color: rgb(163, 163, 163);
     height: 50px;
+}
+.bouton{
+    position: relative;
+    top: 150px
 }
